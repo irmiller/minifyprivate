@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/irmiller/minifyprivate"
-	"github.com/tdewolff/parse/css"
+	"github.com/irmiller/parseprivate/css"
 	"github.com/tdewolff/test"
 )
 

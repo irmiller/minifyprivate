@@ -5,7 +5,7 @@ import (
 	"io"
 
 	"github.com/irmiller/minifyprivate"
-	"github.com/tdewolff/parse/json"
+	"github.com/irmiller/parseprivate/json"
 )
 
 var (

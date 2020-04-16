@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tdewolff/parse/html"
+	"github.com/irmiller/parseprivate/html"
 	"github.com/tdewolff/test"
 )
 

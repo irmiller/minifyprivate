@@ -18,8 +18,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tdewolff/parse"
-	"github.com/tdewolff/parse/buffer"
+	"github.com/irmiller/parseprivate"
+	"github.com/irmiller/parseprivate/buffer"
 )
 
 // Warning is used to report usage warnings such as using a deprecated feature

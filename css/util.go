@@ -3,8 +3,8 @@ package css
 import (
 	"encoding/hex"
 
-	"github.com/tdewolff/parse"
-	"github.com/tdewolff/parse/css"
+	"github.com/irmiller/parseprivate"
+	"github.com/irmiller/parseprivate/css"
 )
 
 func removeMarkupNewlines(data []byte) []byte {

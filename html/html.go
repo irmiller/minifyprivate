@@ -6,9 +6,9 @@ import (
 	"io"
 
 	"github.com/irmiller/minifyprivate"
-	"github.com/tdewolff/parse"
-	"github.com/tdewolff/parse/buffer"
-	"github.com/tdewolff/parse/html"
+	"github.com/irmiller/parseprivate"
+	"github.com/irmiller/parseprivate/buffer"
+	"github.com/irmiller/parseprivate/html"
 )
 
 var (

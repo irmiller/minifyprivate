@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tdewolff/parse/xml"
+	"github.com/irmiller/parseprivate/xml"
 	"github.com/tdewolff/test"
 )
 

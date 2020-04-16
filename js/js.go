@@ -5,8 +5,8 @@ import (
 	"io"
 
 	"github.com/irmiller/minifyprivate"
-	"github.com/tdewolff/parse"
-	"github.com/tdewolff/parse/js"
+	"github.com/irmiller/parseprivate"
+	"github.com/irmiller/parseprivate/js"
 )
 
 var (

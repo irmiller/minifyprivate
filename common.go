@@ -3,8 +3,8 @@ package minify
 import (
 	"encoding/base64"
 
-	"github.com/tdewolff/parse"
-	"github.com/tdewolff/parse/strconv"
+	"github.com/irmiller/parseprivate"
+	"github.com/irmiller/parseprivate/strconv"
 )
 
 // Epsilon is the closest number to zero that is not considered to be zero.

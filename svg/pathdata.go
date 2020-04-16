@@ -5,8 +5,8 @@ import (
 	strconvStdlib "strconv"
 
 	"github.com/irmiller/minifyprivate"
-	"github.com/tdewolff/parse"
-	"github.com/tdewolff/parse/strconv"
+	"github.com/irmiller/parseprivate"
+	"github.com/irmiller/parseprivate/strconv"
 )
 
 type PathData struct {
