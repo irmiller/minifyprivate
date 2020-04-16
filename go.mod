@@ -1,4 +1,4 @@
-module github.com/tdewolff/minify
+module github.com/irmiller/minifyprivate
 
 go 1.13
 

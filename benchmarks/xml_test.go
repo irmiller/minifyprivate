@@ -3,7 +3,7 @@ package benchmarks
 import (
 	"testing"
 
-	"github.com/tdewolff/minify/xml"
+	"github.com/irmiller/minifyprivate/xml"
 )
 
 var xmlSamples = []string{

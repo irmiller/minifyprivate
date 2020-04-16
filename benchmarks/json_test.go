@@ -3,7 +3,7 @@ package benchmarks
 import (
 	"testing"
 
-	"github.com/tdewolff/minify/json"
+	"github.com/irmiller/minifyprivate/json"
 )
 
 var jsonSamples = []string{

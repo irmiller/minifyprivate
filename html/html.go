@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/tdewolff/minify"
+	"github.com/irmiller/minifyprivate"
 	"github.com/tdewolff/parse"
 	"github.com/tdewolff/parse/buffer"
 	"github.com/tdewolff/parse/html"

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tdewolff/minify"
+	"github.com/irmiller/minifyprivate"
 	"github.com/tdewolff/test"
 )
 

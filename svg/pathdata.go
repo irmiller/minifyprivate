@@ -4,7 +4,7 @@ import (
 	"math"
 	strconvStdlib "strconv"
 
-	"github.com/tdewolff/minify"
+	"github.com/irmiller/minifyprivate"
 	"github.com/tdewolff/parse"
 	"github.com/tdewolff/parse/strconv"
 )

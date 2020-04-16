@@ -5,9 +5,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/tdewolff/minify"
-	"github.com/tdewolff/minify/css"
-	minifyXML "github.com/tdewolff/minify/xml"
+	"github.com/irmiller/minifyprivate"
+	"github.com/irmiller/minifyprivate/css"
+	minifyXML "github.com/irmiller/minifyprivate/xml"
 	"github.com/tdewolff/parse"
 	"github.com/tdewolff/parse/buffer"
 	"github.com/tdewolff/parse/xml"

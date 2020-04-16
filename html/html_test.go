@@ -10,12 +10,12 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/tdewolff/minify"
-	"github.com/tdewolff/minify/css"
-	"github.com/tdewolff/minify/js"
-	"github.com/tdewolff/minify/json"
-	"github.com/tdewolff/minify/svg"
-	"github.com/tdewolff/minify/xml"
+	"github.com/irmiller/minifyprivate"
+	"github.com/irmiller/minifyprivate/css"
+	"github.com/irmiller/minifyprivate/js"
+	"github.com/irmiller/minifyprivate/json"
+	"github.com/irmiller/minifyprivate/svg"
+	"github.com/irmiller/minifyprivate/xml"
 	"github.com/tdewolff/test"
 )
 

@@ -4,7 +4,7 @@ package json
 import (
 	"io"
 
-	"github.com/tdewolff/minify"
+	"github.com/irmiller/minifyprivate"
 	"github.com/tdewolff/parse/json"
 )
 

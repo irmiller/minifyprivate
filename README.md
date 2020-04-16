@@ -1,10 +1,10 @@
-# Minify <a name="minify"></a> [![Build Status](https://travis-ci.org/tdewolff/minify.svg?branch=master)](https://travis-ci.org/tdewolff/minify) [![GoDoc](http://godoc.org/github.com/tdewolff/minify?status.svg)](http://godoc.org/github.com/tdewolff/minify) [![Coverage Status](https://coveralls.io/repos/github/tdewolff/minify/badge.svg?branch=master)](https://coveralls.io/github/tdewolff/minify?branch=master)
+# Minify <a name="minify"></a> [![Build Status](https://travis-ci.org/tdewolff/minify.svg?branch=master)](https://travis-ci.org/tdewolff/minify) [![GoDoc](http://godoc.org/github.com/irmiller/minifyprivate?status.svg)](http://godoc.org/github.com/irmiller/minifyprivate) [![Coverage Status](https://coveralls.io/repos/github/tdewolff/minify/badge.svg?branch=master)](https://coveralls.io/github/tdewolff/minify?branch=master)
 
 **[Online demo](https://go.tacodewolff.nl/minify) if you need to minify files *now*.**
 
-**[Command line tool](https://github.com/tdewolff/minify/tree/master/cmd/minify) that minifies concurrently and supports watching file changes.**
+**[Command line tool](https://github.com/irmiller/minifyprivate/tree/master/cmd/minify) that minifies concurrently and supports watching file changes.**
 
-**[Releases](https://github.com/tdewolff/minify/releases) of CLI for various platforms.** See [CLI](https://github.com/tdewolff/minify/tree/master/cmd/minify) for more installation instructions.
+**[Releases](https://github.com/irmiller/minifyprivate/releases) of CLI for various platforms.** See [CLI](https://github.com/irmiller/minifyprivate/tree/master/cmd/minify) for more installation instructions.
 
 ---
 
@@ -77,23 +77,23 @@ This minifier proves to be that fast and extensive minifier that can handle HTML
 With modules enabled (`GO111MODULES=auto` or `GO111MODULES=on`), add the following imports and run the project with `go get`
 ``` go
 import (
-	"github.com/tdewolff/minify"
-	"github.com/tdewolff/minify/css"
-	"github.com/tdewolff/minify/html"
-	"github.com/tdewolff/minify/js"
-	"github.com/tdewolff/minify/json"
-	"github.com/tdewolff/minify/svg"
-	"github.com/tdewolff/minify/xml"
+	"github.com/irmiller/minifyprivate"
+	"github.com/irmiller/minifyprivate/css"
+	"github.com/irmiller/minifyprivate/html"
+	"github.com/irmiller/minifyprivate/js"
+	"github.com/irmiller/minifyprivate/json"
+	"github.com/irmiller/minifyprivate/svg"
+	"github.com/irmiller/minifyprivate/xml"
 )
 ```
 
-See [CLI tool](https://github.com/tdewolff/minify/tree/master/cmd/minify) for installation instructions of the binary.
+See [CLI tool](https://github.com/irmiller/minifyprivate/tree/master/cmd/minify) for installation instructions of the binary.
 
 ## API stability
 There is no guarantee for absolute stability, but I take issues and bugs seriously and don't take API changes lightly. The library will be maintained in a compatible way unless vital bugs prevent me from doing so. There has been one API change after v1 which added options support and I took the opportunity to push through some more API clean up as well. There are no plans whatsoever for future API changes.
 
 ## Testing
-For all subpackages and the imported `parse` package, test coverage of 100% is pursued. Besides full coverage, the minifiers are [fuzz tested](https://github.com/tdewolff/fuzz) using [github.com/dvyukov/go-fuzz](http://www.github.com/dvyukov/go-fuzz), see [the wiki](https://github.com/tdewolff/minify/wiki) for the most important bugs found by fuzz testing. These tests ensure that everything works as intended and that the code does not crash (whatever the input). If you still encounter a bug, please file a [bug report](https://github.com/tdewolff/minify/issues)!
+For all subpackages and the imported `parse` package, test coverage of 100% is pursued. Besides full coverage, the minifiers are [fuzz tested](https://github.com/tdewolff/fuzz) using [github.com/dvyukov/go-fuzz](http://www.github.com/dvyukov/go-fuzz), see [the wiki](https://github.com/irmiller/minifyprivate/wiki) for the most important bugs found by fuzz testing. These tests ensure that everything works as intended and that the code does not crash (whatever the input). If you still encounter a bug, please file a [bug report](https://github.com/irmiller/minifyprivate/issues)!
 
 ## Performance
 The benchmarks directory contains a number of standardized samples used to compare performance between changes. To give an indication of the speed of this library, I've ran the tests on my Thinkpad T460 (i5-6300U quad-core 2.4GHz running Arch Linux) using Go 1.9.2.
@@ -410,13 +410,13 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/tdewolff/minify"
-	"github.com/tdewolff/minify/css"
-	"github.com/tdewolff/minify/html"
-	"github.com/tdewolff/minify/js"
-	"github.com/tdewolff/minify/json"
-	"github.com/tdewolff/minify/svg"
-	"github.com/tdewolff/minify/xml"
+	"github.com/irmiller/minifyprivate"
+	"github.com/irmiller/minifyprivate/css"
+	"github.com/irmiller/minifyprivate/html"
+	"github.com/irmiller/minifyprivate/js"
+	"github.com/irmiller/minifyprivate/json"
+	"github.com/irmiller/minifyprivate/svg"
+	"github.com/irmiller/minifyprivate/xml"
 )
 
 func main() {
@@ -473,7 +473,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/tdewolff/minify"
+	"github.com/irmiller/minifyprivate"
 )
 
 func main() {
