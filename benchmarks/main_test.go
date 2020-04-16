@@ -3,8 +3,8 @@ package benchmarks
 import (
 	"io/ioutil"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/parse/v2/buffer"
+	"github.com/tdewolff/minify"
+	"github.com/tdewolff/parse/buffer"
 )
 
 var m = minify.New()
